@@ -44,3 +44,24 @@ states = ['oregon', 'california', 'texas', 'washington']
   theWarmestState = states[2]
 
 
+// Loops Overview w/ varibles, operators, & data types //
+// functions & control flow | list & loops //
+
+// for loop example //
+
+for (i = 0; i < 10; i++) {
+  putBucket('soccer')
+  putBucket('basketball')
+  putBucket('soccer')
+}
+
+// while loop example - creates a counter at 0 and add 1 to every iteration. //
+//  The loop is executed until the counter is 10 or more. //
+
+let i = 0;
+while (i < 10) {
+  putBucket('soccer')
+  putBucket('basketball')
+  putBucket('soccer')
+  i++
+}
